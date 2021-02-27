@@ -1,0 +1,94 @@
+/*pcspecs.html*/
+html {
+margin: 0;
+padding: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+background-color: #0B0C10;
+}
+
+body {
+  gap: 0px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #45A29E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+ol {
+  list-style: none;
+}
+
+a:hover { background-color: #3b8a86;}
+
+a:active { background-color: #265957;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: repeat(20%, 5);
+}
+
+.navbar {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  list-style-type: none;
+  margin: 0;
+}
+
+.pcspecs {
+  color: #66FCF1;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.pcspecs-item {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.laptopspecs {
+  grid-column: 1/2;
+  grid-row: 4/5
+}
+
+.laptopspecs-item {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.fotopc {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.fotopc {
+  grid-column: 2/3;
+  grid-row: 3/4
+}
+
+.fotolaptop {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.fotolaptop2 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
