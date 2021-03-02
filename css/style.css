@@ -68,6 +68,7 @@ a:active { background-color: #265957;}
   grid-row: 3/4;
   color: #66FCF1;
   font-size: 40px;
+  text-align: center;
 }
 
 .motivatie-item {
@@ -75,17 +76,12 @@ a:active { background-color: #265957;}
   grid-row: 4/5;
 }
 
-.informatie {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
 .hobby {
   grid-column: 1/2;
   grid-row: 3/4;
   color: #66FCF1;
   font-size: 40px;
+  text-align: center;
 }
 
 .hobby-item {
@@ -98,12 +94,14 @@ a:active { background-color: #265957;}
   grid-row: 2/3;
   font-size: 40px;
   color: #66FCF1;
+  padding-left: 10px;
+  text-align: center;
 }
 
 .verwachtingen-item {
   grid-column: 2/3;
   grid-row: 3/4;
-  padding-right: 3px;
+  padding-left: 10px;
 }
 
 .foto {
@@ -123,4 +121,5 @@ a:active { background-color: #265957;}
 .cijfertabel {
   grid-column: 2/3;
   grid-row: 4/5;
+  padding-left: 10px;
 }
