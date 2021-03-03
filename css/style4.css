@@ -1,0 +1,74 @@
+/*sterkzwak.html*/
+html {
+margin: 0;
+padding: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+background-color: #0B0C10;
+}
+
+body {
+  gap: 0px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #45A29E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+table, th, td {
+  border: solid white 1px;
+  border-collapse: collapse;
+  font-size: 16px;
+  padding: 5px;
+}
+
+th, #cijfer {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+a:hover { background-color: #3b8a86;}
+
+a:active { background-color: #265957;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5% 40% 10% 40% 5%;
+  grid-template-rows: 20% 80%;
+}
+
+.navbar {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  list-style-type: none;
+  margin: 0;
+}
+
+.sterkepunten {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.zwakkepunten {
+  grid-column: 4/5;
+  grid-row: 1/3
+}
